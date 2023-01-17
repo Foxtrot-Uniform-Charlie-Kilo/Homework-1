@@ -2,11 +2,11 @@
 
 Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num > 99)
+if (num % 2 == 0)
 {
-    Console.WriteLine(num % 10);
+    Console.Write("Число четное");
 }
 else
 {
-    Console.Write("Число не трехзначное");
+    Console.Write("Число нечетное");
 }
